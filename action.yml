@@ -1,0 +1,14 @@
+name: 'Thanks Action'
+description: 'Say "Thanks" to new pull requests'
+author: 'Prakhar Kapoor'
+
+inputs:
+    GITHUB_TOKENS:
+      description: 'Github token'
+      required: true
+    TENOR_TOKEN:
+      description: 'Tenor API token'
+      required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
