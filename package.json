@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/kapoorp99/thanks-pr-action#readme",
   "dependencies": {
-    "@vercel/ncc": "^0.29.0"
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0",
+    "@vercel/ncc": "^0.29.0",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1"
   }
 }
