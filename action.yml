@@ -3,7 +3,7 @@ description: 'Say "Thanks" to new pull requests'
 author: 'Prakhar Kapoor'
 
 inputs:
-    GITHUB_TOKENS:
+    GITHUB_TOKEN:
       description: 'Github token'
       required: true
     TENOR_TOKEN:
